@@ -1,0 +1,20 @@
+
+.cabecalho__icones__menu button{
+    border: none;
+    background: none;
+    color: #fdfdfd;
+    margin-left: 2rem ;
+}
+
+.cabecalho__icones__menu i{
+    color: #656565;
+    font-weight: bold;
+    font-size: 32px;
+    transition: 0.5s;
+}
+
+.cabecalho__icones__menu i:hover{
+    color: #fdfdfd;
+    transition: 0.5s;
+}
+

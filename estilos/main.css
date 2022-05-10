@@ -1,0 +1,28 @@
+.corpo{
+    height: 100vh;
+}
+
+
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    height: 20%;
+    background: #000000;
+}
+
+
+.subcabecalho{
+    height: 30px;
+    background: #5a0101;
+}
+.conteudo{
+    height: 70%;
+    background: #5e5e5e;
+}
+
+.rodape{
+    height: 30px;
+    background: rgb(0, 0, 0);
+
+}
