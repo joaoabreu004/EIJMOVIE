@@ -15,8 +15,9 @@
 
 
 .subcabecalho{
-    height: 30px;
+    height: auto;
     background: #5a0101;
+    font-family: 'Fira Sans', sans-serif;
 }
 .conteudo{
     height: 70%;
