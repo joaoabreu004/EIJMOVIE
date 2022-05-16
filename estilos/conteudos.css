@@ -2,11 +2,11 @@
 
 .caixaConteudos__1{
     grid-area: parte1;
-    margin: 2em;
+    margin: 2em 10em;
 }
 
 .d-block{
-    height: 450px; 
+    height: 70vh; 
 }
 
 /* ===== */
