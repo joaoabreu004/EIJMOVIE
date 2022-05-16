@@ -1,0 +1,13 @@
+/* CARROSSEL 1º ITEM  */
+
+.caixaConteudos__1{
+    grid-area: parte1;
+    margin: 2em;
+}
+
+.d-block{
+    height: 450px; 
+}
+
+/* ===== */
+
