@@ -1,5 +1,6 @@
 .rodape__redessociais{
     padding: 1em 0;
+    border-bottom: 1px solid #ffffff;
 }
 
 .rodape__redessociais ul{
@@ -24,3 +25,4 @@
     animation:forwards;
     
 }
+
