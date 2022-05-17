@@ -1,60 +1,57 @@
-
-.cabecalho__icones{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    height: 100%;
+.cabecalho__icones {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100%;
 }
 
-.cabecalho__icones__menu button, .cabecalho__subicones button{
-    border: none;
-    background: none;
-    color: #fdfdfd;
-    margin-left: 2rem ;
+.cabecalho__icones__menu button,
+.cabecalho__subicones button {
+  border: none;
+  background: none;
+  color: #fdfdfd;
+  margin-left: 2rem;
 }
 
 .cabecalho__icones__menu i {
-    color: #656565;
-    font-weight: bold;
-    font-size: 32px;
-    transition: 0.5s;
+  color: #656565;
+  font-weight: bold;
+  font-size: 32px;
+  transition: 0.5s;
 }
 
-.cabecalho__icones__menu i:hover{
-    color: #fdfdfd;
-    transition: 0.5s;
-    cursor: pointer;
+.cabecalho__icones__menu i:hover {
+  color: #fdfdfd;
+  transition: 0.5s;
+  cursor: pointer;
 }
-
 
 /* LOGO */
 
-.cabecalho__logo___img{
-    margin-left: 5em;
-    padding-left: 5em;
-    height: 100px;
-    width: 200px;
+.cabecalho__logo___img {
+  margin-left: 5em;
+  padding-left: 5em;
+  height: 100px;
+  width: 200px;
 }
-
 
 /* =================== */
 
-.cabecalho__subicones{
-    display: flex;
-    padding-right: 2em;
+.cabecalho__subicones {
+  display: flex;
+  padding-right: 2em;
 }
 
-
-.cabecalho__subicones button{
-    color: #656565;
-    font-weight: bold;
-    transition: 0.5s;
-    font-size: 20px;
-    cursor: pointer;
+.cabecalho__subicones button {
+  color: #656565;
+  font-weight: bold;
+  transition: 0.5s;
+  font-size: 20px;
+  cursor: pointer;
 }
 
-.cabecalho__subicones button:hover{
-    color: #fdfdfd;
-    transition: 0.5s;
+.cabecalho__subicones button:hover {
+  color: #fdfdfd;
+  transition: 0.5s;
 }
