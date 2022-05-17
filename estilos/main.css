@@ -1,41 +1,37 @@
-*, .cabecalho, .subcabecalho{
-    font-family: 'Fira Sans', sans-serif;
+*,
+.cabecalho,
+.subcabecalho {
+  font-family: "Fira Sans", sans-serif;
 }
 
-.corpo{
-    height: 100vh;
+.corpo {
+  height: 100vh;
 }
 
-
-.cabecalho{
-    height: 20%;
-    background: #000000;
+.cabecalho {
+  height: 20%;
+  background: #000000;
 }
 
-
-.subcabecalho{
-    height: auto;
-    background: #5a0101;
+.subcabecalho {
+  height: auto;
+  background: #5a0101;
 }
 
-
-.conteudo{
-    display: grid;
-    grid-template-areas: 
-        "parte1"
-        "parte2"
-        "parte3"
-        "parte4"
-        "parte5";
-    grid-template-rows: auto; 
-    height: auto;
-    background: #121212f7
+.conteudo {
+  display: grid;
+  grid-template-areas:
+    "parte1"
+    "parte2"
+    "parte3"
+    "parte4"
+    "parte5";
+  grid-template-rows: auto;
+  height: auto;
+  background: #121212f7;
 }
 
-
-
-.rodape{
-    height: 200px;
-    background: rgb(0, 0, 0);
-
+.rodape {
+  height: 200px;
+  background: rgb(0, 0, 0);
 }
