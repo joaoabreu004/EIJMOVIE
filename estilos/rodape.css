@@ -1,3 +1,26 @@
-.rodape__redessociais ul {
-  display: flex;
+
+.rodape__redessociais{
+    padding: 1em 0;
+
+}
+
+.rodape__redessociais ul{
+    display: flex;
+    justify-content: center;
+    margin: 2em 0;
+}
+
+.rodape__redessociais li{
+    padding: 0 1em;
+} 
+
+.links__rodape{
+    color:  rgb(86, 86, 86);
+    transition: 0.5s;
+    font-size: 20px;
+}
+
+.links__rodape:hover{
+    color: #ffffff;
+    transition: 0.5s;
 }
