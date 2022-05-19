@@ -1,7 +1,5 @@
-*,
-.cabecalho,
-.subcabecalho {
-  font-family: "Fira Sans", sans-serif;
+*,.cabecalho,.subcabecalho, .rodape {
+  font-family: 'Rubik', sans-serif
 }
 
 .corpo {
@@ -32,6 +30,6 @@
 }
 
 .rodape {
-  height: 200px;
+  height: 70vh;
   background: rgb(0, 0, 0);
 }
