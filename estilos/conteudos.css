@@ -62,7 +62,7 @@
   margin: 2em 4em;
 }
 
-.caixaconteudo3__parcerias__titulo{
+#caixa__titulo{
   font-size: 25px;
   color: #fdfdfd;
   text-align: center;
@@ -76,4 +76,7 @@
   height: auto;
   padding: 5em 0; 
 }
+
+
+
 
