@@ -21,7 +21,8 @@
 .card-body {
   background-color: black;
 }
-/* ===== */
+
+/* =============================== */
 
 
 .caixaConteudo___3{
@@ -31,7 +32,7 @@
 
 .parceiros{
   height: 150px;
-  width: 350px;
+  width: 300px;
   border: 2px solid;
 }
 
@@ -40,15 +41,15 @@
   justify-content: space-between;
 }
 
-#parceiros__bradesco{
-  background: url(../imagens/lucro-bradesco.jpg) center / cover no-repeat;
+#parceiros__mastercard{
+  background: url(../imagens/mastercard.jpg) center / cover no-repeat;
 }
 
-#parceiros__HSBC{
-  background: url(../imagens/hsbc.jpg) center / cover no-repeat;
+#parceiros__senai{
+  background: url(../imagens/senai.jpg) center / cover no-repeat;
 }
 
-#parceiros__itau{
+#parceiros__american{
   background: url(../imagens/American-Express-Amex.jpg) center / cover no-repeat;
 }
 
@@ -62,18 +63,17 @@
 }
 
 .caixaconteudo3__parcerias__titulo{
-  font-size: 20px;
+  font-size: 25px;
   color: #fdfdfd;
   text-align: center;
-  padding: 2em 0;
+  padding: 2em;
 }
 
 .caixaconteudo3__cupom{
-  margin: 4em 25em;
-  width: 50vw; 
-  height: 250px;
-  border: 2px solid white;
-  border-radius: 15px;
-  background: url(../imagens/cupom.png) no-repeat;
+  display: flex;
+  justify-content: center;
+  width: auto; 
+  height: auto;
+  padding: 5em 0; 
 }
 
