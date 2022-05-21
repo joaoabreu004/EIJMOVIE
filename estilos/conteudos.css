@@ -9,12 +9,71 @@
   height: 70vh;
 }
 
+
+/* ===== */
+
 .caixaConteudos__2 {
   display: flex;
   justify-content: space-around;
   color: white;
+  padding: 2em 0;
 }
 .card-body {
   background-color: black;
 }
 /* ===== */
+
+
+.caixaConteudo___3{
+  height: auto;
+}
+
+
+.parceiros{
+  height: 150px;
+  width: 350px;
+  border: 2px solid;
+}
+
+.todosparceiros{
+  display:  flex; 
+  justify-content: space-between;
+}
+
+#parceiros__bradesco{
+  background: url(../imagens/lucro-bradesco.jpg) center / cover no-repeat;
+}
+
+#parceiros__HSBC{
+  background: url(../imagens/hsbc.jpg) center / cover no-repeat;
+}
+
+#parceiros__itau{
+  background: url(../imagens/American-Express-Amex.jpg) center / cover no-repeat;
+}
+
+#parceiros__satander{
+  background: url(../imagens/santander-banner.png) center / cover no-repeat;
+}
+
+
+.caixaconteudo3__parcerias{
+  margin: 2em 4em;
+}
+
+.caixaconteudo3__parcerias__titulo{
+  font-size: 20px;
+  color: #fdfdfd;
+  text-align: center;
+  padding: 2em 0;
+}
+
+.caixaconteudo3__cupom{
+  margin: 4em 25em;
+  width: 50vw; 
+  height: 250px;
+  border: 2px solid white;
+  border-radius: 15px;
+  background: url(../imagens/cupom.png) no-repeat;
+}
+
