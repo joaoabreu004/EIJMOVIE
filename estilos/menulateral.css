@@ -10,12 +10,12 @@
     padding-top: 20px; 
     left: -100vw; 
     width: 25vw;
-    transition: .30s;
+    transition: .45s;
 }
 
 .menulateral--ativo{
     left: 0;
-    transition: .30s;
+    transition: .45s;
 }
 
 
