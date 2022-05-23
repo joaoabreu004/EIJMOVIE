@@ -8,7 +8,7 @@ const btnAbrir = buscarElemento('.btn_abrirlateral');
 
 
 btnAbrir.addEventListener('click', () => {
-    menu.classList.remove('menulateral--ativo')
+    menu.classList.toggle('menulateral--ativo');
 })
 
 
