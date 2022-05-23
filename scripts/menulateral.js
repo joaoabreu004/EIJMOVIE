@@ -1,9 +1,14 @@
+//FUNÇÃO 
+function buscarElemento(seletor){
+    return document.querySelector(seletor);
+}
 
-const menu = document.querySelector('.menulateral'); 
-const btnAbrir = document.querySelector('.btn_abrirlateral');
+const menu = buscarElemento('.menulateral'); 
+const btnAbrir = buscarElemento('.btn_abrirlateral');
+
 
 btnAbrir.addEventListener('click', () => {
-    menu.classList.remove('menulateral--ativo');
+    menu.classList.remove('menulateral--ativo')
 })
 
 
