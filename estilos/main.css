@@ -7,11 +7,15 @@
 }
 
 .cabecalho {
-  height: 20%;
+  position: fixed;
+  width: 100%;
+  height: 15%;
   background: #000000;
+  z-index: 2;
 }
 
 .subcabecalho {
+  padding-top: 7em;
   height: auto;
   background: #5a0101;
 }
