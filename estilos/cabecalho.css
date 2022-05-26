@@ -88,3 +88,38 @@
   color: #fdfdfd;
   transition: 0.5s;
 }
+
+
+/* LOGIN */
+
+.login{
+  display: flex;
+  width: 600px;
+  height: 350px;
+  background-color: #b00404fa;
+  border-radius: 0.5em;
+  position: absolute;
+  left: 46%;
+  margin:20px 0;
+  z-index: 1;
+
+}
+
+.campo{
+  margin: 2em;
+}
+
+form{
+  width: 100%;
+  left: 0;
+}
+
+label{
+  color: #000000;
+  padding: 0 0 10px 0 ;
+}
+
+login_campo_botoes{
+  display: flex;
+  justify-content: center;
+}

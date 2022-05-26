@@ -31,3 +31,37 @@
     height: 180px;
     width: 180px;
 }
+
+
+/* BOTÃO LIGTH & DARK */
+
+.menulateral__botaoLuzEscuro{
+    position: relative;
+    width: 100px;
+    height: 40px;
+    border-radius: 25px;
+    border-radius: 0 0 2.5px 0 #39a2db59;
+    /* border: 2px solid black; */
+    cursor: pointer;
+    background-color: #fdfdfd;
+}
+
+.ball{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 100%;
+    background-color: #000000;
+    border-radius: 50%;
+    transition: left 2s;
+    transition: 3s;
+    border: 2px solid black;
+
+}
+
+.ball-move{
+    left: calc(100% - 40px);
+    background-color: azure;
+    transition: 2s;
+}
