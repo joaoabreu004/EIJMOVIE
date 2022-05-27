@@ -96,13 +96,12 @@
   display: flex;
   width: 600px;
   height: 350px;
-  background-color: #b00404fa;
+  background-color: #5a0101ef;;
   border-radius: 0.5em;
   position: absolute;
   left: 46%;
   margin:20px 0;
   z-index: 1;
-
 }
 
 .campo{
@@ -115,20 +114,20 @@ form{
 }
 
 label{
-  color: #000000;
+  color: #ffffff;
   padding: 0 0 10px 0 ;
 }
 
 .input-padrao{
   width: 80%;
-  border-radius: 10px;
+  padding: 5px ;
 }
 
 
 
 .login_campo_botoes{
   display: flex;
-  margin: 8em 0 0;
+  margin: 5em 0 0;
 }
 
 .login__produto{
