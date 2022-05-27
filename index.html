@@ -53,10 +53,47 @@
         </div>
         <div class="cabecalho__subicones">
           <div class="cabecalho__subicones___login">
-            <button>
+            <button class="button_login">
               <i class="fa-solid fa-user-large"></i>
               LOGIN
             </button>
+            <div class="login" style="display: none;">
+              <form action="#">
+
+                <!-- <div class="campo">
+                  <label for="nomesobrenome">Nome Completo:</label>
+                  <div class="login_nome">
+                    <input type="text" id="nomesobrenome" class="input-padrao" required>
+                  </div>
+                </div> -->
+
+                <div class="campo">
+                  <label for="email">E-mail:</label>
+                  <div class="loogin_email">
+                    <input type="text" id="email" class="input-padrao" required>
+                  </div>
+                </div>
+
+                <div class="campo">
+                  <label for="senha">Senha:</label>
+                  <div class="senha">
+                    <input type="password" id="senha" class="input-padrao" required>
+                  </div>
+                </div>
+
+
+                <div class="login_campo_botoes">
+                  <button type="submit" class="btn btn-danger">ENTRAR</button>
+                  <button type="button" class="btn btn-danger">REGISTRE-SE</button>
+                </div>
+              </form> 
+              
+              <div class="login__produto">
+                <h2 class="login_produto_titulo">ESTREIA</h2>
+                <div class="login_produto_banner"></div>
+              </div>
+              
+            </div>
           </div>
           <div class="cabecalho__subicones___search">
             <button>
@@ -344,5 +381,6 @@
     ></script>
     <!-- SCRIPTS DO CÓDIGO -->
     <script src="scripts/menulateral.js"></script>
+    <script src="scripts/loginebusca.js"></script>
   </body>
 </html>

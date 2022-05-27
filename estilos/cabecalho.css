@@ -88,3 +88,65 @@
   color: #fdfdfd;
   transition: 0.5s;
 }
+
+
+/* LOGIN */
+
+.login{
+  display: flex;
+  width: 600px;
+  height: 350px;
+  background-color: #5a0101ef;;
+  border-radius: 0.5em;
+  position: absolute;
+  left: 46%;
+  margin:20px 0;
+  z-index: 1;
+}
+
+.campo{
+  margin: 2em;
+}
+
+form{
+  width: 65%;
+  left: 0;
+}
+
+label{
+  color: #ffffff;
+  padding: 0 0 10px 0 ;
+}
+
+.input-padrao{
+  width: 80%;
+  padding: 5px ;
+}
+
+
+
+.login_campo_botoes{
+  display: flex;
+  margin: 5em 0 0;
+}
+
+.login__produto{
+  width: 30%;
+  
+}
+
+
+.login_produto_banner{
+  border: solid 2px #000000;
+  box-shadow: 5px 5px 10px #000000;
+  margin: 1em 0;
+  width: 100%;
+  height: 80%;
+  background: url(../imagens/finalchampions.jpg) center /cover no-repeat ;
+}
+
+.login_produto_titulo{
+  color: #fdfdfd;
+  text-align: center;
+  padding: 15px 0 0;
+}
