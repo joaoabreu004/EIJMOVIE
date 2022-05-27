@@ -1,2 +1,2 @@
 # EIJMOVIE
-Página criada com intuído de evoluir nossos conhecimentos em programação web
+Página com um dos primeiros contatos com Banco de Dados.
