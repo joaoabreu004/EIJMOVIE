@@ -68,14 +68,14 @@
                 </div> -->
 
                 <div class="campo">
-                  <label for="email">E-mail:</label>
-                  <div class="loogin_email">
-                    <input type="text" id="email" class="input-padrao" required>
+                  <label for="nome">NOME:</label>
+                  <div class="login_nome">
+                    <input type="text" id="email" class="input-padrao barraNome" required>
                   </div>
                 </div>
 
                 <div class="campo">
-                  <label for="senha">Senha:</label>
+                  <label for="senha">SENHA:</label>
                   <div class="senha">
                     <input type="password" id="senha" class="input-padrao" required>
                   </div>
@@ -83,7 +83,7 @@
 
 
                 <div class="login_campo_botoes">
-                  <button type="submit" class="btn btn-danger">ENTRAR</button>
+                  <button type="submit" class="btn btn-danger btn-entrar">ENTRAR</button>
                   <button type="button" class="btn btn-danger">REGISTRE-SE</button>
                 </div>
               </form> 
@@ -92,9 +92,9 @@
                 <h2 class="login_produto_titulo">ESTREIA</h2>
                 <div class="login_produto_banner"></div>
               </div>
-              
             </div>
           </div>
+   
           <div class="cabecalho__subicones___search">
             <button class="button_pesquisar">
               <i class="fa-solid fa-magnifying-glass"></i>
@@ -107,6 +107,7 @@
               </div>
               <div class="pesquisar_legenda">
                 <p>Nós da EIJ'S, preparamos para nossos clientes uma sessão, onde poderão matar a saudade de filmes que marcaram não só nas nossa telas, mas também gerações.</p>
+                <br>
                 <p>Descubra curiosidades, elenco, trailers e muito mais!</p>
               </div>
               <div class="pesquisar_barraPesquisa">
@@ -120,9 +121,9 @@
         </div>
       </section>
 
+
       <section class="menulateral" >
         <div class="menulateral__cabecalho"><img id="logo_menulateral" src="imagens/logoimagem.png" alt=""></div>
-
       </section>
     </header>
   
@@ -232,76 +233,128 @@
 
 
       <section class="caixaconteudo4">
-        <div id="caixa__titulo">FILMES EM CARTAZ</div>
+        <div id="caixa__titulo">EM BREVE</div>
+
+        <div class="caixaConteudos__2">
+          <div class="card" style="width: 18rem">
+            <img
+              class="card-img-top"
+              src="imagens/avatar.jpg"
+              alt="Imagem de capa do card"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Avatar 2</h5>
+              <p class="card-text">
+                The time goes on but the reality doesn't!!!! Shall we watch it on
+                July 8th???
+              </p>
+              <a href="#" class="btn btn-primary">Buy earlier</a>
+            </div>
+          </div>
+  
+          <div class="card" style="width: 18rem">
+            <img
+              class="card-img-top"
+              src="imagens/thor4.jpg"
+              alt="Imagem de capa do card"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Thor 4</h5>
+              <p class="card-text">
+                Thor has falling in love, we are losing soldiers! Shall we watch
+                it on August 17th and save them?
+              </p>
+              <a href="#" class="btn btn-primary">Buy earlier</a>
+            </div>
+          </div>
+  
+          <div class="card" style="width: 18rem">
+            <img
+              class="card-img-top"
+              src="imagens/blackadam.jpg"
+              alt="Imagem de capa do card"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Black Adam</h5>
+              <p class="card-text">
+                Be careful his gonna blow you up! But if you watch it on December
+                2th he'll let you go! What are you waiting?
+              </p>
+              <a href="#" class="btn btn-primary">Buy earlier</a>
+            </div>
+          </div>
+  
+          <div class="card" style="width: 18rem">
+            <img
+              class="card-img-top"
+              src="imagens/jurassic.jpg"
+              alt="Imagem de capa do card"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Jurassic World - Dominion</h5>
+              <p class="card-text">
+                New dangers are coming, watch your six or they gonna eat you!
+                Shall we watch it on July 2th?
+              </p>
+              <a href="#" class="btn btn-primary">Buy earlier</a>
+            </div>
+          </div>
+        </div>
       </section>
 
       <!--------------------------------------------------------------------------------------------------------------------------------------------------------------* -->
 
-      <div class="caixaConteudos__2">
-        <div class="card" style="width: 18rem">
-          <img
-            class="card-img-top"
-            src="imagens/avatar.jpg"
-            alt="Imagem de capa do card"
-          />
-          <div class="card-body">
-            <h5 class="card-title">Avatar 2</h5>
-            <p class="card-text">
-              The time goes on but the reality doesn't!!!! Shall we watch it on
-              July 8th???
-            </p>
-            <a href="#" class="btn btn-primary">Buy earlier</a>
-          </div>
-        </div>
+  
 
-        <div class="card" style="width: 18rem">
-          <img
-            class="card-img-top"
-            src="imagens/thor4.jpg"
-            alt="Imagem de capa do card"
-          />
-          <div class="card-body">
-            <h5 class="card-title">Thor 4</h5>
-            <p class="card-text">
-              Thor has falling in love, we are losing soldiers! Shall we watch
-              it on August 17th and save them?
-            </p>
-            <a href="#" class="btn btn-primary">Buy earlier</a>
+      <section class="caixaConteudos__3">
+        <h2 id="caixa__titulo">PROMOÇÕES</h2>
+        <div id="promocoes">
+          <div class="cardpromo" style="width: 20rem;">
+             <h2 class="card-titulo">Todos pagam meia!</h2>
+             <div class="card-img-top card_img_promo" id="promo_pagammeia" alt="Promoção3"></div>
+                <div class="card-body">
+                  <p class="card-text">Pensando em uma ótima experiência por um valor acessível nós da companhia EJI'S iremos
+                    comercializar todos os ingressos de segunda á quarta-feira pela metade do preço para todos os publicos.
+                  </p>
+                </div>
           </div>
-        </div>
-
-        <div class="card" style="width: 18rem">
-          <img
-            class="card-img-top"
-            src="imagens/blackadam.jpg"
-            alt="Imagem de capa do card"
-          />
-          <div class="card-body">
-            <h5 class="card-title">Black Adam</h5>
-            <p class="card-text">
-              Be careful his gonna blow you up! But if you watch it on December
-              2th he'll let you go! What are you waiting?
-            </p>
-            <a href="#" class="btn btn-primary">Buy earlier</a>
+          <div class="cardpromo" style="width: 20rem;">
+            <h2 class="card-titulo">Dia dos namorados!</h2>
+               <div class="card-img-top card_img_promo" id="promo_namorados" alt="Promoção3"></div>
+               <div class="card-body">
+                  <p class="card-text">Nada melhor que comemorar o dia dos namorados com a pessoa amada e assistindo "aquele
+                    filme". 
+                    <br>
+                    <br>
+                    Pensando nisso preparamos uma super promoção, casal paga um engresso e leva dois! Tá esperando o que? Venha comemorar o dia
+                    dos namorados com a gente!.
+                  </p>
+                </div>
           </div>
-        </div>
-
-        <div class="card" style="width: 18rem">
-          <img
-            class="card-img-top"
-            src="imagens/jurassic.jpg"
-            alt="Imagem de capa do card"
-          />
-          <div class="card-body">
-            <h5 class="card-title">Jurassic World - Dominion</h5>
-            <p class="card-text">
-              New dangers are coming, watch your six or they gonna eat you!
-              Shall we watch it on July 2th?
-            </p>
-            <a href="#" class="btn btn-primary">Buy earlier</a>
+          <div class="cardpromo" style="width: 20rem;">
+             <h2 class="card-titulo">Combo do Multiverso!</h2>
+             <div class="card-img-top card_img_promo" id="promo_doutorstrange" alt="Promoção3"></div>
+             <div class="card-body">
+                <p class="card-text">Estão prontos para assistir o filme que vai desinstabilizar o multiverso, desfrutando de
+                  um combo pensado e feito exclusivamente para você que é fã da Marvel!
+                  <br>
+                  Na compra de dois ingressos leve uma pipoca média e um refrigerante de graça. Estáesperando o que? Traga um amigo
+                  e aproveite o Melhor Combo do Multiverso!
+                </p>
+             </div>
           </div>
-        </div>
-      </div>
+          <div class="cardpromo" style="width: 20rem;">
+           <h2 class="card-titulo" >Voltando para os anos 60!</h2>
+           <div class="card-img-top card_img_promo"  id="promo_classicos" alt="Promoção3"></div>
+            <div class="card-body">
+              <p class="card-text">Nós da companhia EJI'S vamos separar o dia 10/09/2022 para voltarmos para os clássicos
+                dos anos 60.Entre nas nossas redes social e vote nos filmes que você gostaria de rever os 5 mais votados estarão em
+                cartaz no nosso festival "Voltando aos anos 60"!
+              </p>
+            </div>
+         </div>
+       
+      </section>
 
  
       <!--------------------------------------------------------------------------------------------------------------------------------------------------------------* -->
@@ -397,6 +450,8 @@
     ></script>
     <!-- SCRIPTS DO CÓDIGO -->
     <script src="scripts/menulateral.js"></script>
+    <script src="scripts/coletarnome.js"></script>
     <script src="scripts/loginebusca.js"></script>
+    <script src="scripts/MTDB.js"></script>
   </body>
 </html>

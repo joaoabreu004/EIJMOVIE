@@ -151,6 +151,24 @@ label{
   padding: 15px 0 0;
 }
 
+
+
+
+/* CADASTRO */
+
+.cadastro{
+  position: absolute;
+  height: 20vh;
+  width: 25vw;
+  background-color: #5a0101ee;;
+  border-radius: 0.5em;
+  left: 36%;
+  top: 15em;
+  z-index: 1;
+}
+
+/* =-=-=-=-=-=-=-=-=-=-=-=- */
+
 /*PESQUISA*/
 .pesquisar{
   display: flex;
