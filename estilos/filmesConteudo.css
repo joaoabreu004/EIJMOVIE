@@ -1,0 +1,106 @@
+/* CONFIGURAÇÕES INICIAIS */
+*, main,.cabecalho,.subcabecalho, .rodape {
+    font-family: 'Rubik', sans-serif
+  }
+
+/* ==========================================*/
+
+
+/* HEADER */
+.cabecalho {
+    width: 100%;
+    height: 15%;
+    background: #000000;
+    z-index: 2;
+}
+
+.cabecalho__subicones{
+    margin:  0 0 0 2em;
+    background-color: #000000;
+}
+/* ==========================================*/
+  
+/* CONTEUDO */
+.conteudo{
+    height: 100vh; 
+    background: #121212f7;
+}
+
+.titulos{
+    color: #fdfdfd;
+    font-size: 20px;
+    text-align: center;
+    padding: 2em 0 0 0;
+}
+
+
+#muralFilmes{
+    display: grid;
+    grid-gap: .3rem ;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: repeat(4, 25%);
+    height: 100vh;
+    padding: 2em 2rem ;
+}
+
+
+.muralFilmes_principal{
+    background: url(../imagens/f2-starwars.jpg) center /cover no-repeat;
+    grid-column: 1 / 4;
+    grid-row: 1 / 3;
+}
+
+
+.muralFilmes_secundario:nth-child(2){
+    background: url(../imagens/f3vingadores.png) center / cover no-repeat;
+    grid-column: 4 / 4;
+    grid-row: 1 / 2;
+}
+
+.muralFilmes_secundario:nth-child(3){
+    background: url(../imagens/f3-titanic.jpg) center / cover no-repeat;
+    grid-column: 4 / 4;
+    grid-row: 2 / 2 ;
+}
+
+.muralFilmes_secundario:nth-child(4){
+    background: url(../imagens/f4-avatar.png) center / cover no-repeat;
+}
+
+.muralFilmes_secundario:nth-child(5){
+    background: url(../imagens/f5-harry.jpg) center / cover no-repeat;
+}
+
+.muralFilmes_secundario:nth-child(6){
+    background: url(../imagens/f6-Iluminado.jpg) center / cover no-repeat;
+}
+
+.muralFilmes_secundario:nth-child(7){
+    background: url(../imagens/f7-matrix.jpg) center / cover no-repeat;
+}
+
+.muralFilmes_titulos{
+    background: #000000b9;
+    color: #fdfdfd;
+    text-align: center;
+    width: 100%;
+    padding: .6rem;
+}
+
+
+.caixa{
+    display: flex;
+    align-items: flex-end;
+
+}
+
+/* ==========================================*/
+
+
+
+/* RODAPÉ */
+.rodape {
+    height: 70vh;
+    background: rgb(0, 0, 0);
+}
+/* ==========================================*/
