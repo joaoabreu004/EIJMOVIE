@@ -22,7 +22,7 @@
   
 /* CONTEUDO */
 .conteudo{
-    height: 100vh; 
+    height: auto; 
     background: #121212f7;
 }
 
@@ -38,7 +38,7 @@
     display: grid;
     grid-gap: .3rem ;
     grid-template-columns: repeat(4, 25%);
-    grid-template-rows: repeat(4, 25%);
+    grid-template-rows: repeat(3, 33.3%);
     height: 100vh;
     padding: 2em 2rem ;
 }
@@ -95,6 +95,42 @@
 }
 
 /* ==========================================*/
+
+
+/* API */
+.filmeselecionado_api{
+    padding: 2em 0;
+    background: #000000a0;
+}
+
+.filmeselecionado_api_sinopseposter{
+    display: flex;
+}
+
+.filmeselecionado_api_titulo{
+    text-align: center;
+    font-size: 20px;
+    color: #fdfdfd;
+    padding: 2em;
+}
+
+.filmeselecionado_api_poster{
+    height: 400px;
+    width: 300px;
+    border: 2px solid #000000;
+    background: #fdfdfd;
+    border-radius: 2%;
+    margin: 0 0 0 2em;
+}
+
+.sinopse__titulo{
+    font-size: 20px;
+    color: #fdfdfd;
+}
+
+.filmeselecionado_api_sinopse{
+    margin: 0 0 0 4em;
+}
 
 
 
