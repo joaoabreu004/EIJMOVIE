@@ -2,7 +2,7 @@
 
 .caixaConteudos__1 {
   grid-area: parte1;
-  margin: 2em 10em;
+  margin: 2em 5em;
 }
 
 .d-block {
@@ -24,6 +24,114 @@
 
 /* =============================== */
 
+h5
+{
+  margin:0px;
+  font-size:1em;
+  font-weight:700;
+}
+
+p
+{
+  margin: 2em 0 0 0;
+  line-height: 1rem ;
+  font-size:12px;
+}
+
+.center
+{
+  height:100vh;
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.property-card
+{
+  height:18em;
+  width:14em;
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-orient:vertical;
+  -webkit-box-direction:normal;
+  -ms-flex-direction:column;
+  flex-direction:column;
+  position:relative;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  border-radius:16px;
+  overflow:hidden;
+}
+
+.property-image
+{
+  height:6em;
+  width:14em;
+  padding:1em 2em;
+  position:Absolute;
+  top:0px;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+#property-card__avatar{
+  background: url(../imagens/avatar.jpg) center / cover no-repeat;
+}
+
+#property-card__thor{
+  background: url(../imagens/thor4.jpg) center / cover no-repeat;
+}
+
+#property-card__balckadam{
+  background: url(../imagens/blackadam.jpg) center / cover no-repeat;
+}
+
+#property-card__jurassicWorld{
+  background: url(../imagens/jurassic.jpg) center / cover no-repeat;
+}
+
+/* Bottom Card Section */
+
+.property-description
+{
+  color: #fdfdfd;
+  background-color: #000000;
+  height:12em;
+  width:14em;
+  position:absolute;
+  bottom:0em;
+  padding: 0.5em 1em;
+  text-align:center;
+}
+
+/* Social Icons */
+
+.property-social-icons
+{
+  width:1em;
+  height:1em;
+  background-color:black;
+  position:absolute;
+  bottom:1em;
+  left:1em;
+}
+
+/* Property Cards Hover States */
+
+
+
+.btn-compraantecipada{
+  margin: 2em 0;
+  font-size: 9px;
+}
+
+
+/* ========================================= */
 
 .caixaConteudo___3{
   height: auto;
@@ -77,6 +185,88 @@
   padding: 5em 0; 
 }
 
+/* MURAL - GRID */
+
+.conteudo{
+  height: auto; 
+  background: #121212f7;
+}
+
+.titulos{
+  color: #fdfdfd;
+  font-size: 20px;
+  text-align: center;
+  padding: 2em 0 0 0;
+}
+
+
+#muralFilmes{
+  display: grid;
+  grid-gap: .3rem ;
+  grid-template-columns: repeat(4, 25%);
+  grid-template-rows: repeat(3, 33.3%);
+  height: 100vh;
+  padding: 2em 5em;
+}
+
+
+.muralFilmes_principal{
+  background: url(../imagens/f2-starwars.jpg) center /cover no-repeat;
+  grid-column: 1 / 4;
+  grid-row: 1 / 3;
+}
+
+
+.muralFilmes_secundario:nth-child(2){
+  background: url(../imagens/f3vingadores.png) center / cover no-repeat;
+  grid-column: 4 / 4;
+  grid-row: 1 / 1;
+}
+
+.muralFilmes_secundario:nth-child(3){
+  background: url(../imagens/f3-titanic.jpg) center / cover no-repeat;
+  grid-column: 4 / 4;
+  grid-row: 2 / 2 ;
+}
+
+.muralFilmes_secundario:nth-child(4){
+  background: url(../imagens/f4-avatar.png) center / cover no-repeat;
+  grid-column: 1 / 2;
+  grid-row: 3 / 3 ;
+}
+
+.muralFilmes_secundario:nth-child(5){
+  background: url(../imagens/f5-harry.jpg) center / cover no-repeat;
+  grid-column:  2 / 2;
+  grid-row: 3 / 3;
+}
+
+.muralFilmes_secundario:nth-child(6){
+  background: url(../imagens/f6-Iluminado.jpg) center / cover no-repeat;
+  grid-column: 3 / 3;
+  grid-row: 3 / 3;
+}
+
+.muralFilmes_secundario:nth-child(7){
+  background: url(../imagens/f7-matrix.jpg) center / cover no-repeat;
+  grid-column: 4 / 4;
+  grid-row: 3 / 3;
+}
+
+.muralFilmes_titulos{
+  background: #000000b9;
+  color: #fdfdfd;
+  text-align: center;
+  width: 100%;
+  padding: .6rem;
+}
+
+
+.caixa{
+  display: flex;
+  align-items: flex-end;
+
+}
 
 
 
