@@ -23,14 +23,6 @@
 
 
 .conteudo {
-  display: grid;
-  grid-template-areas:
-    "parte1"
-    "parte2"
-    "parte3"
-    "parte4"
-    "parte5";
-  grid-template-rows: auto;
   height: auto;
   background: #121212f7;
 }
@@ -40,59 +32,3 @@
   background: rgb(0, 0, 0);
 }
 
-/* PROMOÇÕES */
-
-.caixaConteudos__3{
-  margin: 5em 0;
-}
-
-.cardpromo{
-  color: white;
-  /* padding: 1%; */
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  justify-content: space-around;
-}
-
-.card-titulo{
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 30px;
-  color: crimson;
-  text-align: center;
-}
-
-.card-body {
-  padding: 2em;
-  height: 50%;
-  
-}
-
-#promocoes{
-  width: 80%;
-  margin: auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 2%;
-}
-
-.card_img_promo{
-  width: 100%;
-  height: 200px;
-}
-
-#promo_pagammeia{
-  background: url(../imagens/todospagammeia33.jpg) center / cover no-repeat;
-}
-
-#promo_namorados{
-  background: url(../imagens/diadosnamorados.jpg) center / cover no-repeat; 
-}
-
-#promo_doutorstrange{
-  background: url(../imagens/combodoutor1.jpg) center / cover no-repeat;
-}
-
-#promo_classicos{
-  background: url(../imagens/filmeanos60.jpg) center / cover no-repeat; ;
-}

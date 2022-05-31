@@ -34,14 +34,14 @@
 }
 
 
-
+/* 
 .rodape__links{
     display: flex;
     justify-content: space-between;
     margin:1em 5em;
     border-bottom: 1px solid white;
     
-}
+} */
 
 
 .rodape__links___titulos{
@@ -64,23 +64,23 @@
     text-decoration: none;
 }
 
-.rodape__final{
+/* .rodape__final{
     display: flex;
     align-items: baseline;
     justify-content: space-between;
     margin: 4em;
-}
+} */
 
 .logorodape{
     width: 150px;
     height: 150px;
 }
 
-.teste{
+/* .rodape__final__linksabaixo{
     display: flex;
     justify-content: space-between;
     width: 50%;
-}
+} */
 
 
 .rodape__final__copy{
