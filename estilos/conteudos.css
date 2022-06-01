@@ -367,3 +367,54 @@ p
 
 
 
+/* MAPA */
+
+.mapaedescricao{
+  display: flex;
+  margin: 2em;
+}
+
+.mapaedescricao__mapa{
+  height: 100%;
+}
+
+.caixaMapa{
+  padding: 2em;
+}
+
+.mapaedescricao__fotos{
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-template-rows: repeat(2, 50%);
+  grid-gap: .1rem;
+  width: 50%;
+  margin-left: 1em;
+}
+
+.mapaedescricao__fotos_sala{
+  background: url(../imagens/salaimax.jpg) center / cover no-repeat;
+  grid-column: 1 / 1 ;
+  grid-row: 1 / 1;
+}
+
+.mapaedescricao__fotos_loja{
+  background: url(../imagens/LOJA.png) center / cover no-repeat;
+  grid-column: 1 / 1 ;
+  grid-row: 2 / 2;
+}
+
+.mapaedescricao__fotos_espaco{
+  background: url(../imagens/espaco.png) center / cover no-repeat;
+  grid-column: 2 / 2 ;
+  grid-row: 1 / 1;
+}
+
+.mapaedescricao__fotos_sala2{
+  background: url(../imagens/sala2d.png) center / cover no-repeat;
+  grid-column: 2 / 2 ;
+  grid-row: 2 / 2;
+}
+
+.descricaolocal{
+  color: #fdfdfd;
+}
