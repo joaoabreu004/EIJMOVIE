@@ -51,6 +51,8 @@
 }
 
 
+
+
 .lista__links{
     padding: 1em 0;
 }
@@ -89,4 +91,20 @@
 
 .rodape__final__copy p{
     margin: 0 0 2em  0 ;
+}
+
+
+.trabalheconosco{
+    height: 400px;
+    width: 350px;
+    background: rgb(98, 10, 10);
+    border-radius: 5%;
+}
+
+.buttonEnviar{
+    text-align: center;
+}
+
+.trabalheconosco_forms{
+    padding: 2em;
 }
