@@ -1,8 +1,7 @@
 
 const btnLogin = buscarElemento('.button_login'); 
-const btnPesquisar = buscarElemento('.button_pesquisar'); 
-const login = buscarElemento('.login')
-const pesquisar = buscarElemento('.pesquisar');
+const login = buscarElemento('.login');
+
 
 
 function fecharMenu(elemento){
@@ -22,10 +21,5 @@ function abrirMenu(elemento){
 
 btnLogin.addEventListener('click', () => {
     abrirMenu(login);
-    fecharMenu(pesquisar);
 })
 
-btnPesquisar.addEventListener('click', () => {
-    abrirMenu(pesquisar);
-    fecharMenu(login);
-})

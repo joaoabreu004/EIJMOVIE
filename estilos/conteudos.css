@@ -3,7 +3,7 @@
 .caixaConteudos__1 {
   grid-area: parte1;
   margin: 0 5em;
-  padding: 2em 0;
+  padding: 10em 0 2em 0;
 }
 
 .d-block {
@@ -22,6 +22,51 @@
 .card-body {
   background-color: black;
 }
+
+/* EM cartaz */
+
+.property-image-cartaz{
+  height:12em;
+  width:14em;
+  padding:1em 2em;
+  position:Absolute;
+  top:0px;
+}
+
+.property-description-cartaz{
+  color: #fdfdfd;
+  background-color: #000000;
+  height:6em;
+  width:14em;
+  position:absolute;
+  bottom:0em;
+  padding: 0.5em 1em;
+  text-align:center;
+
+}
+
+.caixaConteudo{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+#property-card__drstrange{
+  background: url(../imagens/doutorestranho.jpg) center / cover no-repeat ;
+}
+
+#property-card__lutapelafe{
+  background: url(../imagens/LUTAPELAFE.jpg) center /cover no-repeat;
+}
+
+#property-card__dog{
+  background: url(../imagens/dogaaventura.jpg) center / cover no-repeat;
+}
+
+#property-card__sonic{
+  background: url(../imagens/sonic-2-pster.jpg) center / cover no-repeat;
+}
+
 
 /* =============================== */
 
@@ -60,10 +105,7 @@ p
   -webkit-box-direction:normal;
   -ms-flex-direction:column;
   flex-direction:column;
-  position:relative;
-  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
-  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
-  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  position:relative; 
   border-radius:16px;
   overflow:hidden;
 }
@@ -75,9 +117,6 @@ p
   padding:1em 2em;
   position:Absolute;
   top:0px;
-  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
-  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
-  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
 #property-card__avatar{
