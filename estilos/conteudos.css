@@ -1,7 +1,28 @@
 /* CARROSSEL 1º ITEM  */
 
+.adesivos{
+  height: 0;
+}
+
+#homemdeferro{
+  height: 250px;
+  width: 250px;
+  position: relative;
+  bottom: 2em;
+  right: 7em;
+  z-index: 1;
+}
+
+#sonic{
+  height: 200px;
+  width: 200px;
+  position: relative;
+  bottom: 10em;
+  left: 90%;
+  z-index: 1; 
+}
+
 .caixaConteudos__1 {
-  grid-area: parte1;
   margin: 0 5em;
   padding: 10em 0 2em 0;
 }
