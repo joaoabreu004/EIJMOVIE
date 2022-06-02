@@ -4,15 +4,6 @@
   height: 0;
 }
 
-#homemdeferro{
-  height: 250px;
-  width: 250px;
-  position: relative;
-  bottom: 2em;
-  right: 7em;
-  z-index: 1;
-}
-
 #sonic{
   height: 200px;
   width: 200px;
@@ -40,54 +31,68 @@
   color: white;
   padding: 2em 0;
 }
+
 .card-body {
   background-color: black;
 }
 
 /* EM cartaz */
 
-.property-image-cartaz{
-  height:16em;
-  width:14em;
-  padding:1em 2em;
-  position:Absolute;
-  top:0px;
-}
-
-.property-description-cartaz{
-  color: #fdfdfd;
-  background-color: #000000;
-  height:6em;
-  width:14em;
-  position:absolute;
-  bottom:0em;
-  padding: 0.5em 1em;
-  text-align:center;
-
-}
-
-.caixaConteudo{
+.EmCartazConteudo{
   display: flex;
-  justify-content: space-evenly;
 }
 
-
-#property-card__drstrange{
-  background: url(../imagens/doutorestranho.jpg) center / cover no-repeat ;
+.EmCartazConteudo__card{
+  display: grid;
+  grid-template-areas: 
+   "card-imagem"
+   "card-corpo";
+  grid-template-columns: 100%;
+  grid-template-rows: 200px auto;
+  margin-right: 1rem;
+  width: calc(20% - 1rem);
+  border: 5px solid #000000;
+  border-radius: 3px;
+  margin: 2em; 
+  transition: 2ms;   
+        
 }
 
-#property-card__lutapelafe{
-  background: url(../imagens/LUTAPELAFE.jpg) center /cover no-repeat;
+.EmCartazConteudo__card:hover{
+  box-shadow: 1px 0 15px snow;
+  transition: 2ms; 
 }
 
-#property-card__dog{
-  background: url(../imagens/dogaaventura.jpg) center / cover no-repeat;
+.EmCartazConteudo__card__img{
+  grid-area: card-imagem;
+  height: 100%;
+  width: 100%;
 }
 
-#property-card__sonic{
-  background: url(../imagens/sonic-2-pster.jpg) center / cover no-repeat;
+.EmCartazConteudo__card__corpo{
+  display: grid;
+  grid-template-areas:
+    "card-cabecalho"
+    "card-conteudo";
+  grid-area: card-corpo;
+  grid-template-rows: 50px auto;  
+  background-color: rgb(98, 10, 10);
+  grid-row-gap: .5rem;
+  padding:  .75rem;
 }
 
+.EmCartazConteudo__card__cabecalho{
+  margin: 1em 0 ;
+  font-size: 1rem;
+  color: #fdfdfd;
+  text-align: center;
+}
+
+.EmCartazConteudo__card__btn{
+  display: flex;
+  justify-content: center;
+  margin: 1em;
+}
 
 /* =============================== */
 
