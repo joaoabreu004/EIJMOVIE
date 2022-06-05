@@ -1,5 +1,24 @@
 @media screen and (min-width: 0) {
-    
+
+   /* CONTEÚDO */
+
+   #mapa{
+     width: 100%;
+     height: 70vw;
+   }
+
+  .mapaedescricao{
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      /* justify-content: center; */
+  }
+
+  .descricaolocal {
+    text-align: center; 
+  }
+
+
     /* RODAPE */
 
     .rodape{
@@ -12,6 +31,10 @@
       margin:1em 5em;
       border-bottom: 1px solid white;
     }    
+
+    .trabalheconosco{
+      width: 220px;
+    }
 
     .rodape__final__linksabaixo{
       padding: 2em 0;
@@ -53,6 +76,15 @@
 
 
 @media screen and (min-width: 992px){
+
+  #mapa{
+    width: 70vw;
+  }
+
+  .mapaedescricao{
+  align-items: center;
+  display: flex;   /* justify-content: center; */
+ }
   .rodape__links{
     display: flex;
     justify-content: space-between;
@@ -77,6 +109,23 @@
 
 @media screen and (min-width: 1200px){
 
+  #mapa{
+    width: 70%;
+  }
+
+ .mapaedescricao{
+  align-items: center;
+  display: flex;
+     /* justify-content: center; */
+ }
+
+  /* CONTEUDO */
+
+  .mapaedescricao{
+    display: flex;
+    margin: 2em;
+  }
+
   /* RODAPÉ */
 
     .rodape__links{
@@ -84,6 +133,11 @@
       justify-content: space-between;
       margin:1em 5em;
       border-bottom: 1px solid white;
+    }
+
+    .trabalheconosco{
+      height: 400px;
+      width: 350px;
     }
 
     .rodape__final__linksabaixo{
