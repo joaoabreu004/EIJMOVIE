@@ -1,5 +1,8 @@
 @media screen and (min-width: 0) {
 /* CABEÇALHO */
+.cabecalho{
+  height: 17%;
+}
 
 
 .login__produto{
@@ -34,7 +37,7 @@ form{
 /* ============ */
 
 .carousel{
-  width: 350px;
+  width: 320px;
 }
 
 
@@ -64,7 +67,7 @@ form{
     width: 189px;
     position: relative;
     bottom: 7em;
-    left:49%;
+    left:47%;
     z-index: 1;
   }
 
@@ -250,6 +253,9 @@ form{
 
 
 @media screen and (min-width: 1200px){
+  .cabecalho{
+    height: 15%;
+  }
   .login__produto{
     display:block;
   }

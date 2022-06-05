@@ -208,10 +208,6 @@ p
 }
 
 
-.parceiros{
-  border: 2px solid;
-}
-
 .todosparceiros{
   display:  flex; 
   justify-content: space-between;
