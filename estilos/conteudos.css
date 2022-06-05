@@ -1,15 +1,30 @@
 /* CARROSSEL 1º ITEM  */
 
+.carousel-indicators {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin-right: 15%;
+  margin-bottom: 1rem;
+  margin-left: 15%;
+  list-style: none;
+}
+
 .adesivos{
   height: 0;
 }
 
 
 
-.caixaConteudos__1 {
+/* .caixaConteudos__1 {
   margin: 0 5em;
   padding: 10em 0 2em 0;
-}
+} */
 
 .d-block {
   height: 70vh;
@@ -194,8 +209,6 @@ p
 
 
 .parceiros{
-  height: 150px;
-  width: 300px;
   border: 2px solid;
 }
 
@@ -222,7 +235,7 @@ p
 
 
 .caixaconteudo3__parcerias{
-  margin: 2em 4em;
+  /* margin: 2em 4em; */
 }
 
 #caixa__titulo{
@@ -256,8 +269,8 @@ p
 }
 
 .card-titulo{
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 30px;
+  font-size: 25px;
+  margin: 2em 0;
   color: crimson;
   text-align: center;
 }

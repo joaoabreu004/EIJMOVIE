@@ -63,11 +63,11 @@
 
 /* LOGO */
 
-.cabecalho__logo___img {
+/* .cabecalho__logo___img {
   padding-left: 4em;
   height: 100px;
   width: 200px;
-}
+} */
 
 /* =================== */
 
@@ -94,12 +94,12 @@
 
 .login{
   display: flex;
-  width: 800px;
+  /* width: 800px; */
   height: 400px;
   background-color: #5a0101ef;;
   border-radius: 0.5em;
   position: absolute;
-  left: 46%;
+  /* left: 46%; */
   margin:20px 0;
   z-index: 1;
 }
@@ -109,7 +109,7 @@
 }
 
 form{
-  width: 65%;
+  /* width: 65%; */
   left: 0;
 }
 
