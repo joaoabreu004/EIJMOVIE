@@ -4,14 +4,7 @@
   height: 0;
 }
 
-#sonic{
-  height: 200px;
-  width: 200px;
-  position: relative;
-  bottom: 10em;
-  left: 90%;
-  z-index: 1; 
-}
+
 
 .caixaConteudos__1 {
   margin: 0 5em;
@@ -38,9 +31,6 @@
 
 /* EM cartaz */
 
-.EmCartazConteudo{
-  display: flex;
-}
 
 .EmCartazConteudo__card{
   display: grid;
@@ -50,7 +40,6 @@
   grid-template-columns: 100%;
   grid-template-rows: 200px auto;
   margin-right: 1rem;
-  width: calc(20% - 1rem);
   border: 1px solid #000000;
   border-radius: 3px;
   margin: 2em; 
@@ -248,7 +237,6 @@ p
   justify-content: center;
   width: auto; 
   height: auto;
-  padding: 5em 0; 
 }
 
 /* PROMOCOES */
@@ -279,13 +267,6 @@ p
   height: 50%;
 }
 
-#promocoes{
-  width: 80%;
-  margin: auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 2%;
-}
 
 .card_img_promo{
   width: 100%;
@@ -323,14 +304,6 @@ p
 }
 
 
-#muralFilmes{
-  display: grid;
-  grid-gap: .3rem ;
-  grid-template-columns: repeat(4, 25%);
-  grid-template-rows: repeat(3, 33.3%);
-  height: 100vh;
-  padding: 2em 5em;
-}
 
 
 .muralFilmes_principal{
@@ -412,8 +385,6 @@ p
   grid-template-columns: repeat(2, 50%);
   grid-template-rows: repeat(2, 50%);
   grid-gap: .1rem;
-  width: 65%;
-  margin-left: 1em;
 }
 
 .mapaedescricao__fotos_sala{

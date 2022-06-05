@@ -1,6 +1,73 @@
 @media screen and (min-width: 0) {
 
+#sonic {
+    height: 160px;
+    width: 189px;
+    position: relative;
+    bottom: 7em;
+    left: 45%;
+    z-index: 1;
+  }
+
+  .cards{
+    margin-right: 10em;
+  }
+
+  .caixaconteudo3__cupom{
+    padding: 5em 0 0;
+  }
+  .caixaconteudo3__cupom img{
+    height: 250px;
+    width: 300px;
+  }
+
+  .EmCartazConteudo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .EmCartazConteudo__card{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+  }
+  
    /* CONTEÚDO */
+  #promocoes{
+    width: 80%;
+    margin: 0 2em;
+    grid-template-columns: 1fr 1fr;
+    gap: 2%;
+  }
+
+
+  .cardpromo{
+    margin: 2em 0 0 0;
+  }
+
+   #muralFilmes {
+    display: flex;
+    flex-direction: column;
+    /* display: grid; */
+    grid-gap: 0.3rem;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: repeat(3, 33.3%);
+    /* height: 200vh; */
+    padding: 2em 5em;
+    /* align-content: space-evenly; */
+  }
+
+
+   .caixa{
+     padding: 13em 0 0;
+   }
+   
+  .mapaedescricao__fotos{
+    margin: 2em 0 0;
+    width: 100%;
+    margin-left: 0;
+  }
 
    #mapa{
      width: 100%;
@@ -9,8 +76,6 @@
 
   .mapaedescricao{
       align-items: center;
-      display: flex;
-      flex-direction: column;
       /* justify-content: center; */
   }
 
@@ -53,6 +118,12 @@
 }
 
 @media screen and (min-width: 768px){
+ 
+
+  #mapa{
+    width: 600px;
+    height: 450px;
+  }
   
   .rodape__links{
     /* display: flex; */
@@ -77,13 +148,28 @@
 
 @media screen and (min-width: 992px){
 
+  #muralFilmes{
+    display: grid;
+    grid-gap: .3rem ;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: repeat(3, 33.3%);
+    height: 100vh;
+    padding: 2em 5em;
+  }
+  
+  .caixa{
+    padding: 10em 0 0;
+  }
+
   #mapa{
-    width: 70vw;
+    margin: 0;
+    width: 600px;
+    height: 450px;
   }
 
   .mapaedescricao{
-  align-items: center;
   display: flex;   /* justify-content: center; */
+  align-items: center;
  }
   .rodape__links{
     display: flex;
@@ -108,19 +194,74 @@
 
 
 @media screen and (min-width: 1200px){
+  #sonic{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    bottom: 10em;
+    left: 90%;
+    z-index: 1; 
+  }
+  .caixaconteudo3__cupom{
+    padding: 5em 0 0;
+  }
+  .caixaconteudo3__cupom img{
+    height: 70%;
+    width: 70%;
+  }
+  
+  .EmCartazConteudo__card{
+    width: calc(20% - 1rem);
+  }
+
+  #promocoes{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2%;
+  }
+  
+
+  #muralFilmes{
+    display: grid;
+    grid-gap: .3rem ;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: repeat(3, 33.3%);
+    height: 100vh;
+    padding: 2em 5em;
+  }
+
+  .caixa{
+    padding: 11em 0 0;
+  }
+
+  .mapaedescricao__fotos{
+    height: 50em;
+    margin: 0 0 0 1em;
+    width: 65%;
+    height: 70%;
+  }
 
   #mapa{
-    width: 70%;
+    margin: 0;
+    width: 600px;
+    height: 450px;
   }
 
  .mapaedescricao{
-  align-items: center;
   display: flex;
+  align-items: center;
      /* justify-content: center; */
  }
 
   /* CONTEUDO */
 
+  .EmCartazConteudo{
+    display: flex;
+    flex-direction: row;
+  }
+  
   .mapaedescricao{
     display: flex;
     margin: 2em;
