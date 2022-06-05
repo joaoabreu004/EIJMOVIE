@@ -36,13 +36,14 @@ form{
 
 /* ============ */
 
-.carousel{
-  width: 320px;
+.carousel {
+  width: 87vw;
+  margin: 0 1em;
 }
 
 
 .caixaConteudos__1 {
-  margin: 0 1em;
+  margin: 0 20px;
   padding: 10em 0 4em 0;
 }
 
@@ -53,6 +54,7 @@ form{
 }
 
 .todosparceiros {
+  margin: 2em;
   flex-direction: column;
 }
 
