@@ -25,6 +25,7 @@
 }
 
 #logo_menulateral{
+    padding: 0;
     height: 180px;
     width: 180px;
 }

@@ -69,6 +69,7 @@
 
 .EmCartazConteudo__card__img{
   grid-area: card-imagem;
+  padding: 0;
   height: 100%;
   width: 100%;
 }
@@ -150,7 +151,7 @@ p
 }
 
 #property-card__avatar{
-  background: url(../imagens/avatar.jpg) center / cover no-repeat;
+  background: url(../imagens/avatar.jpg) ;
 }
 
 #property-card__thor{
