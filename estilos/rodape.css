@@ -34,14 +34,14 @@
 }
 
 
-
+/* 
 .rodape__links{
     display: flex;
     justify-content: space-between;
     margin:1em 5em;
     border-bottom: 1px solid white;
     
-}
+} */
 
 
 .rodape__links___titulos{
@@ -49,6 +49,8 @@
     font-size: 20px;
     padding: 2em 0;
 }
+
+
 
 
 .lista__links{
@@ -64,23 +66,23 @@
     text-decoration: none;
 }
 
-.rodape__final{
+/* .rodape__final{
     display: flex;
     align-items: baseline;
     justify-content: space-between;
     margin: 4em;
-}
+} */
 
 .logorodape{
     width: 150px;
     height: 150px;
 }
 
-.teste{
+/* .rodape__final__linksabaixo{
     display: flex;
     justify-content: space-between;
     width: 50%;
-}
+} */
 
 
 .rodape__final__copy{
@@ -89,4 +91,19 @@
 
 .rodape__final__copy p{
     margin: 0 0 2em  0 ;
+}
+
+
+.trabalheconosco{
+    background: rgb(98, 10, 10);
+    border-radius: 5%;
+    margin: 2em 0;
+}
+
+.buttonEnviar{
+    text-align: center;
+}
+
+.trabalheconosco_forms{
+    padding: 2em;
 }

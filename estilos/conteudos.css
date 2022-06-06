@@ -1,9 +1,30 @@
 /* CARROSSEL 1º ITEM  */
 
-.caixaConteudos__1 {
-  grid-area: parte1;
-  margin: 2em 10em;
+.carousel-indicators {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin-right: 15%;
+  margin-bottom: 1rem;
+  margin-left: 15%;
+  list-style: none;
 }
+
+.adesivos{
+  height: 0;
+}
+
+
+
+/* .caixaConteudos__1 {
+  margin: 0 5em;
+  padding: 10em 0 2em 0;
+} */
 
 .d-block {
   height: 70vh;
@@ -18,23 +39,174 @@
   color: white;
   padding: 2em 0;
 }
+
 .card-body {
   background-color: black;
 }
 
+/* EM cartaz */
+
+
+.EmCartazConteudo__card{
+  display: grid;
+  grid-template-areas: 
+   "card-imagem"
+   "card-corpo";
+  grid-template-columns: 100%;
+  grid-template-rows: 200px auto;
+  margin-right: 1rem;
+  border: 1px solid #000000;
+  border-radius: 3px;
+  margin: 2em; 
+  transition: 2ms;   
+        
+}
+
+.EmCartazConteudo__card:hover{
+  box-shadow: 1px 0 15px snow;
+  transition: 2ms; 
+}
+
+.EmCartazConteudo__card__img{
+  grid-area: card-imagem;
+  height: 100%;
+  width: 100%;
+}
+
+.EmCartazConteudo__card__corpo{
+  display: grid;
+  grid-template-areas:
+    "card-cabecalho"
+    "card-conteudo";
+  grid-area: card-corpo;
+  grid-template-rows: 50px auto;  
+  background-color: rgb(0, 0, 0);
+  grid-row-gap: .5rem;
+  padding:  .75rem;
+}
+
+.EmCartazConteudo__card__cabecalho{
+  margin: 1em 0 ;
+  font-size: 1rem;
+  color: #fdfdfd;
+  text-align: center;
+}
+
+.EmCartazConteudo__card__btn{
+  display: flex;
+  justify-content: center;
+  margin: 1em;
+}
+
 /* =============================== */
 
+h5
+{
+  margin:0px;
+  font-size:1em;
+  font-weight:700;
+}
+
+p
+{
+  margin: 2em 0 0 0;
+  line-height: 1rem ;
+  font-size:12px;
+}
+
+.center
+{
+  height:100vh;
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.property-card
+{
+  height:18em;
+  width:14em;
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-orient:vertical;
+  -webkit-box-direction:normal;
+  -ms-flex-direction:column;
+  flex-direction:column;
+  position:relative; 
+  border-radius:16px;
+  overflow:hidden;
+}
+
+.property-image
+{
+  height:6em;
+  width:14em;
+  padding:1em 2em;
+  position:Absolute;
+  top:0px;
+}
+
+#property-card__avatar{
+  background: url(../imagens/avatar.jpg) center / cover no-repeat;
+}
+
+#property-card__thor{
+  background: url(../imagens/thor4.jpg) center / cover no-repeat;
+}
+
+#property-card__balckadam{
+  background: url(../imagens/blackadam.jpg) center / cover no-repeat;
+}
+
+#property-card__jurassicWorld{
+  background: url(../imagens/jurassic.jpg) center / cover no-repeat;
+}
+
+/* Bottom Card Section */
+
+.property-description
+{
+  color: #fdfdfd;
+  background-color: #000000;
+  height:12em;
+  width:14em;
+  position:absolute;
+  bottom:0em;
+  padding: 0.5em 1em;
+  text-align:center;
+}
+
+/* Social Icons */
+
+.property-social-icons
+{
+  width:1em;
+  height:1em;
+  background-color:black;
+  position:absolute;
+  bottom:1em;
+  left:1em;
+}
+
+/* Property Cards Hover States */
+
+
+
+.btn-compraantecipada{
+  margin: 2em 0;
+  font-size: 9px;
+}
+
+
+/* ========================================= */
 
 .caixaConteudo___3{
   height: auto;
 }
 
-
-.parceiros{
-  height: 150px;
-  width: 300px;
-  border: 2px solid;
-}
 
 .todosparceiros{
   display:  flex; 
@@ -59,7 +231,7 @@
 
 
 .caixaconteudo3__parcerias{
-  margin: 2em 4em;
+  /* margin: 2em 4em; */
 }
 
 #caixa__titulo{
@@ -74,9 +246,180 @@
   justify-content: center;
   width: auto; 
   height: auto;
-  padding: 5em 0; 
+}
+
+/* PROMOCOES */
+
+
+.caixaConteudos__3{
+  margin: 5em 0;
+}
+
+.cardpromo{
+  color: white;
+  /* padding: 1%; */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-around;
+}
+
+.card-titulo{
+  font-size: 25px;
+  margin: 2em 0;
+  color: crimson;
+  text-align: center;
+}
+
+.card-body {
+  padding: 2em;
+  height: 50%;
+}
+
+
+.card_img_promo{
+  width: 100%;
+  height: 200px;
+}
+
+#promo_pagammeia{
+  background: url(../imagens/todospagammeia33.jpg) center / cover no-repeat;
+}
+
+#promo_namorados{
+  background: url(../imagens/diadosnamorados.jpg) center / cover no-repeat; 
+}
+
+#promo_doutorstrange{
+  background: url(../imagens/combodoutor1.jpg) center / cover no-repeat;
+}
+
+#promo_classicos{
+  background: url(../imagens/filmeanos60.jpg) center / cover no-repeat; ;
+}
+
+/* MURAL - GRID */
+
+.conteudo{
+  height: auto; 
+  background: #121212f7;
+}
+
+.titulos{
+  color: #fdfdfd;
+  font-size: 20px;
+  text-align: center;
+  padding: 2em 0 0 0;
 }
 
 
 
 
+.muralFilmes_principal{
+  background: url(../imagens/f2-starwars.jpg) center /cover no-repeat;
+  grid-column: 1 / 4;
+  grid-row: 1 / 3;
+}
+
+
+.muralFilmes_secundario:nth-child(2){
+  background: url(../imagens/f3vingadores.png) center / cover no-repeat;
+  grid-column: 4 / 4;
+  grid-row: 1 / 1;
+}
+
+.muralFilmes_secundario:nth-child(3){
+  background: url(../imagens/f3-titanic.jpg) center / cover no-repeat;
+  grid-column: 4 / 4;
+  grid-row: 2 / 2 ;
+}
+
+.muralFilmes_secundario:nth-child(4){
+  background: url(../imagens/f4-avatar.png) center / cover no-repeat;
+  grid-column: 1 / 2;
+  grid-row: 3 / 3 ;
+}
+
+.muralFilmes_secundario:nth-child(5){
+  background: url(../imagens/f5-harry.jpg) center / cover no-repeat;
+  grid-column:  2 / 2;
+  grid-row: 3 / 3;
+}
+
+.muralFilmes_secundario:nth-child(6){
+  background: url(../imagens/f6-Iluminado.jpg) center / cover no-repeat;
+  grid-column: 3 / 3;
+  grid-row: 3 / 3;
+}
+
+.muralFilmes_secundario:nth-child(7){
+  background: url(../imagens/f7-matrix.jpg) center / cover no-repeat;
+  grid-column: 4 / 4;
+  grid-row: 3 / 3;
+}
+
+.muralFilmes_titulos{
+  background: #000000b9;
+  color: #fdfdfd;
+  text-align: center;
+  width: 100%;
+  padding: .6rem;
+}
+
+
+.caixa{
+  display: flex;
+  align-items: flex-end;
+
+}
+
+
+
+/* MAPA */
+
+.mapaedescricao{
+  margin: 2em;
+}
+
+.mapaedescricao__mapa{
+  height: 100%;
+}
+
+.caixaMapa{
+  padding: 2em;
+}
+
+.mapaedescricao__fotos{
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-template-rows: repeat(2, 50%);
+  grid-gap: .1rem;
+}
+
+.mapaedescricao__fotos_sala{
+  background: url(../imagens/salaimax.jpg) center / cover no-repeat;
+  grid-column: 1 / 1 ;
+  grid-row: 1 / 1;
+}
+
+.mapaedescricao__fotos_loja{
+  background: url(../imagens/LOJA.png) center / cover no-repeat;
+  grid-column: 1 / 1 ;
+  grid-row: 2 / 2;
+}
+
+.mapaedescricao__fotos_espaco{
+  background: url(../imagens/espaco.png) center / cover no-repeat;
+  grid-column: 2 / 2 ;
+  grid-row: 1 / 1;
+}
+
+.mapaedescricao__fotos_sala2{
+  background: url(../imagens/sala2d.png) center / cover no-repeat;
+  grid-column: 2 / 2 ;
+  grid-row: 2 / 2;
+}
+
+.descricaolocal{
+  color: #fdfdfd;
+}

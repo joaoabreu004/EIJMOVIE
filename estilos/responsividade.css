@@ -1,0 +1,415 @@
+@media screen and (min-width: 0) {
+/* CABEÇALHO */
+.cabecalho{
+  height: 17%;
+}
+
+
+.login__produto{
+  display: none;
+}
+
+.login{
+  left: 0;
+  width: 100vw;
+}
+
+form{
+  width: 100%;
+  left: 0;
+}
+
+
+.menulateral{
+  width: 50%;
+  left: -100vw; 
+}
+
+.cabecalho__logo___img {
+  padding-left: 3em;
+  height: 100px;
+  width: 162px;
+}
+
+/* LOGIN */
+
+
+/* ============ */
+
+.carousel {
+  width: 87vw;
+  margin: 0 1em;
+}
+
+
+.caixaConteudos__1 {
+  margin: 0 20px;
+  padding: 10em 0 4em 0;
+}
+
+
+
+.caixaconteudo3__parcerias {
+  margin: 2em;
+}
+
+.todosparceiros {
+  margin: 2em;
+  flex-direction: column;
+}
+
+
+.parceiros{
+  height: 150px;
+  width: 310px;
+}
+
+#sonic {
+    height: 160px;
+    width: 189px;
+    position: relative;
+    bottom: 7em;
+    left:47%;
+    z-index: 1;
+  }
+
+
+  .caixaconteudo3__cupom{
+    padding: 5em 0 0;
+  }
+  .caixaconteudo3__cupom img{
+    height: 250px;
+    width: 300px;
+  }
+
+  .EmCartazConteudo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .EmCartazConteudo__card{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+  }
+  
+   /* CONTEÚDO */
+  #promocoes{
+    width: 80%;
+    margin: 0 2em;
+    grid-template-columns: 1fr 1fr;
+    gap: 2%;
+  }
+
+
+  .cardpromo{
+    margin: 2em 0 0 0;
+  }
+
+   #muralFilmes {
+    display: flex;
+    flex-direction: column;
+    /* display: grid; */
+    grid-gap: 0.3rem;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: repeat(3, 33.3%);
+    /* height: 200vh; */
+    padding: 2em 5em;
+    /* align-content: space-evenly; */
+  }
+
+
+   .caixa{
+     padding: 13em 0 0;
+   }
+   
+  .mapaedescricao__fotos{
+    margin: 2em 0 0;
+    width: 100%;
+    margin-left: 0;
+  }
+
+   #mapa{
+     width: 100%;
+     height: 70vw;
+   }
+
+  .mapaedescricao{
+      align-items: center;
+      /* justify-content: center; */
+  }
+
+  .descricaolocal {
+    text-align: center; 
+  }
+
+
+    /* RODAPE */
+
+    .rodape{
+      transition: 2s;
+    }
+
+    .rodape__links{
+      /* display: flex; */
+      /* justify-content: space-between; */
+      margin:1em 5em;
+      border-bottom: 1px solid white;
+    }    
+
+    .trabalheconosco{
+      width: 220px;
+    }
+
+    .rodape__final__linksabaixo{
+      padding: 2em 0;
+    }
+    
+    
+    .rodape__final{
+        /* display: flex; */
+        /* align-items: baseline;
+        justify-content: space-between; */
+        /* margin: 4em; */
+        text-align: center;
+    }
+
+  
+}
+
+@media screen and (min-width: 768px){
+ 
+
+  #mapa{
+    width: 600px;
+    height: 450px;
+  }
+  
+  .rodape__links{
+    /* display: flex; */
+    /* justify-content: space-between; */
+    margin:1em 5em;
+    border-bottom: 1px solid white;
+  }  
+  .rodape__final__linksabaixo{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .rodape__final{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin: 4em;
+  }  
+}
+
+
+@media screen and (min-width: 992px){
+
+  #muralFilmes{
+    display: grid;
+    grid-gap: .3rem ;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: repeat(3, 33.3%);
+    height: 100vh;
+    padding: 2em 5em;
+  }
+  
+  .caixa{
+    padding: 10em 0 0;
+  }
+
+  #mapa{
+    margin: 0;
+    width: 600px;
+    height: 450px;
+  }
+
+  .mapaedescricao{
+  display: flex;   /* justify-content: center; */
+  align-items: center;
+ }
+  .rodape__links{
+    display: flex;
+    justify-content: space-between;
+    margin:1em 5em;
+    border-bottom: 1px solid white;
+  }
+
+  .rodape__final__linksabaixo{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .rodape__final{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin: 4em;
+  }  
+}
+
+
+@media screen and (min-width: 1200px){
+  .cabecalho{
+    height: 15%;
+  }
+  .login__produto{
+    display:block;
+  }
+
+  
+  .login{
+    left: 46%;
+    width: 800px; 
+  }
+
+  form{
+    width: 65%;
+    left: 0;
+  }
+  
+  .menulateral{
+    width: 25vw;
+  }
+  
+
+  .cabecalho__logo___img {
+    padding-left: 4em;
+    height: 100px;
+    width: 200px;
+  }
+  
+
+  
+  .carousel{
+    width: 100%;
+  }
+
+
+ .caixaConteudos__1 {
+  margin: 0 5em;
+  padding: 10em 0 2em 0;
+  }
+
+  #sonic{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    bottom: 10em;
+    left: 90%;
+    z-index: 1; 
+  }
+  .caixaconteudo3__cupom{
+    padding: 5em 0 0;
+  }
+  .caixaconteudo3__cupom img{
+    height: 70%;
+    width: 70%;
+  }
+  
+  .EmCartazConteudo__card{
+    width: calc(20% - 1rem);
+  }
+
+  .todosparceiros{
+    display:  flex; 
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  .caixaconteudo3__parcerias{
+    margin: 2em 4em;
+  }
+
+  .parceiros{
+    height: 150px;
+    width: 310px;
+  }
+
+  #promocoes{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2%;
+  }
+  
+
+  #muralFilmes{
+    display: grid;
+    grid-gap: .3rem ;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: repeat(3, 33.3%);
+    height: 100vh;
+    padding: 2em 5em;
+  }
+
+  .caixa{
+    padding: 11em 0 0;
+  }
+
+  .mapaedescricao__fotos{
+    height: 50em;
+    margin: 0 0 0 1em;
+    width: 65%;
+    height: 70%;
+  }
+
+  #mapa{
+    margin: 0;
+    width: 600px;
+    height: 450px;
+  }
+
+ .mapaedescricao{
+  display: flex;
+  align-items: center;
+     /* justify-content: center; */
+ }
+
+  /* CONTEUDO */
+  .caixaconteudo3__parcerias{
+    margin: 2em 4em;
+  }
+
+  .EmCartazConteudo{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .mapaedescricao{
+    display: flex;
+    margin: 2em;
+  }
+
+  /* RODAPÉ */
+
+    .rodape__links{
+      display: flex;
+      justify-content: space-between;
+      margin:1em 5em;
+      border-bottom: 1px solid white;
+    }
+
+    .trabalheconosco{
+      height: 400px;
+      width: 350px;
+    }
+
+    .rodape__final__linksabaixo{
+        display: flex;
+        justify-content: space-between;
+        width: 50%;
+    }
+
+    .rodape__final{
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      margin: 4em;
+    }  
+}

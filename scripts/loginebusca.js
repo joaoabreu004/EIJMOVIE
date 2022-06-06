@@ -1,13 +1,8 @@
-const btnLogin = buscarElemento('.button_login'); 
-const login = buscarElemento('.login')
 
-function abrirMenu(elemento){
-    if(elemento.style.display == "none"){
-        elemento.style.display = "flex"; 
-    } else {
-        fecharMenu(elemento);
-    }
-}    
+const btnLogin = buscarElemento('.button_login'); 
+const login = buscarElemento('.login');
+
+
 
 function fecharMenu(elemento){
     if(elemento.style.display == "flex"){
@@ -15,6 +10,16 @@ function fecharMenu(elemento){
     }
 }
 
+function abrirMenu(elemento){
+    if(elemento.style.display == "none"){
+        elemento.style.display = "flex"; 
+    } else {
+        fecharMenu(elemento);
+    }
+}  
+
+
 btnLogin.addEventListener('click', () => {
     abrirMenu(login);
 })
+
